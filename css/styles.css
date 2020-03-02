@@ -29,3 +29,37 @@
     overflow: hidden;
     text-align: center;
 }
+
+.nav-bar{
+    padding-top: 20px;
+    text-align: right;
+    text-decoration: none;
+    right: 0;
+    left: 0;
+    
+}
+
+
+li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+li>a {
+    text-decoration: none;
+    padding: 15px;
+    margin: 0;
+    display: block;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: red;
+    font-family: 'syncopate';
+    background-color: inherit;
+}
+
+li>a:hover {
+    box-shadow: 0 0 40px grey;
+    color: #E6B0AA;
+    text-decoration: none;
+}
