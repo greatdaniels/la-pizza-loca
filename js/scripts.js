@@ -195,8 +195,15 @@ $(document).ready(function(){
         });
         event.preventDefault();
 
-
     })
+
+    $("#btn").click(function(){
+        var email = $("input#email").val();
+        var name = $("input#customerName").val();
+        var message = $("input#comment").val();
+    
+        alert("Thank you " + name + " for reaching out to us. We value your feedback. You will receive a message shortly at " + email + ".");
+    });
 
 
 
