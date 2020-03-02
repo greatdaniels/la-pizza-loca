@@ -105,3 +105,21 @@ h4 {
     font-family: 'pacifico';
     font-size: 17px;
 }
+
+.section5 {
+    align-items: center;
+    text-emphasis: bold;
+    align-self: center;
+    align-content: center;
+
+    margin-right: 16%;
+    margin-left: 18%;
+    padding: 0;
+}
+
+.section5 h2{
+    font-family: 'pacifico';
+    text-align: center;
+    color: black;
+    
+}
