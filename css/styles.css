@@ -150,3 +150,34 @@ input[type=text],input[type=email],#comment{
 .form-group{
     padding-bottom: 19px;
 }
+
+#menu1{
+    padding-top: 30px;
+    
+    font-family: 'pacifico';
+}
+
+#menu2{
+    padding-top: 30px;
+    color: orange;
+    font-family: 'pacifico';
+}
+
+#make-order{
+    padding-top: 4%;
+    padding-bottom: 4%;
+    text-align: center;
+    color: white;
+}
+
+#make-order h2{
+    color: orange;
+}
+
+.order-overlay{
+    background-color: rgba(0, 0, 0, 0.8);
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-bottom: 20px;
+    padding-left: 6%;
+  }
