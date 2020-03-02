@@ -155,6 +155,19 @@ $(document).ready(function(){
             $("#pizzatotal").append("Your bill is sh. "+checkoutTotal);
         });
 
+        // home delivery 
+        $("button.deliver").click(function(){
+            $(".pizzatable").hide();
+            $(".choise h2").hide();
+            $(".delivery").slideDown(1000);
+            $("#addedprice").hide();
+            $("button.deliver").hide();
+            $("#pizzatotal").hide();
+            let deliveryamount= checkoutTotal+150;
+            console.log("You will pay sh. "+deliveryamount+" on delivery");
+            $("#totalbill").append("Your bill plus delivery fee is: "+deliveryamount);
+        });
+
 
     })
 
