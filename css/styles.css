@@ -123,3 +123,30 @@ h4 {
     color: black;
     
 }
+
+.overlay1{
+    padding: 30%;
+    display: none;
+}
+
+#customerName{
+    width: 25%;
+    margin-right: 25px;
+    margin-left: 25%;
+}
+#email{
+    width: 25%;
+    margin-left: 0%;
+}
+#comment{
+    margin-left: 26%;
+    width: 50%;
+}
+input[type=text],input[type=email],#comment{
+    background: transparent;
+    color: white;
+    font-size: 20px;
+}
+.form-group{
+    padding-bottom: 19px;
+}
